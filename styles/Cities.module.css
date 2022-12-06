@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+}
+.single {
+  padding: 2px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 10px;
+  border-left: 8px solid #fff;
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.single:hover {
+  border-left: 8px solid #05595B;
+}

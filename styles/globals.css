@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+body {
+  background: #f2f2f2;
+  color: #333;
+  font-family: "Nunito";
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  margin-right: auto;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #05595b;
+  color: white;
+  text-align: center;
+}
+.not-found {
+  text-align: center;
+}
+.not-found a {
+  color: #05595b;
+  text-decoration: underline;
+}
+.searchbarContainer {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.searchbar {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+.searchbarImage {
+  position: absolute;
+  right: 280px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+}
+.map-container {
+  width: 50%;
+  height: 55vh;
+}
+.id-container {
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+.id {
+  margin-right: auto;
+}

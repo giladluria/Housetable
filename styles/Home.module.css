@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+}
+
+.title {
+  color: white;
+  font-size: 68px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 20px;
+}
+.text {
+  color: #777;
+  text-align: center;
+}
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #05595B;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+}
