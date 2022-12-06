@@ -34,7 +34,6 @@ const Cities = ({ cities }) => {
       <Head>
         <title>Housetable | Cities</title>
       </Head>
-      ;
       <div>
         <h1 className={styles.title}>All Cities</h1>
         <Searchbar onSearch={(e) => setQuery(e.target.value)} />
